@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    backdrop-filter: blur(10px);
+}
+
+.price-card {
+    width: 45%;
+    height: 70vh;
+    padding: 15px 50px;
+    border: 2px solid #23cb6c;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.price-card h5 {
+  color: rgba(255, 255, 255, 0.508);
+  padding: 0px 50px;
+  margin: -10px  0px 15px 0px ;
+
+}
+
+.plan-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 50px;
+}
+
+.plan-text h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.plan-text button {
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 150px;
+    color: white;
+    padding: 5px 8px;
+    background-color: rgba(0, 0, 0, 0.124);
+}
+
+.plan-text button span {
+    background-color: #23cb6c ;
+    width: 80px;
+    font-weight: 600px;
+    color: black;
+    margin-left: -16px;
+    margin-right: 10px;
+    padding: 8px 10px 8px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.flexing-divs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-div {
+    width: 300px;
+    margin: 15px 15px;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid  rgba(255, 255, 255, 0.508);
+    /* background-color: blanchedalmond; */
+}
+
+.upper-text {
+    padding: 10px 20px;
+}
+
+.upper-shadow-div {
+    width: 98%;
+    height: 18vh;
+    border-radius: 10px;
+    /* background-color: chartreuse; */
+    border: 2px solid #23cb6c;
+    -webkit-box-shadow: 0 8px 6px -1px #23cb6c;
+    -moz-box-shadow: 0 8px 6px -1px #23cb6c;
+     box-shadow: 0 8px 5px -1px #23cb6c;
+}
+
+.upper-shadow-div  h2, h1 {
+    color: white ;
+}
+.upper-shadow-div p, b, sub {
+    color: rgba(255, 255, 255, 0.508);
+}
+.upper-shadow-div sub, p {
+    font-size: 15px;
+}
+
+.first-div ul {
+    color: white;
+    list-style-type: none;
+    font-size: 10px;
+    text-align: justify;
+    margin: 15px 15px 10px 15px;
+    line-height: 20px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.button-div button {
+    margin: 10px 0px;
+    width: 120px;
+    padding: 5px 9px;
+    background-color: #23cb6c;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
